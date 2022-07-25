@@ -1,6 +1,3 @@
-info:
- app.name: ysy-microservicecloud
- company.name: www.ysy.com
- build.artifactId: "@project.artifactId@"  
- build.version: "@project.version@"     # 可以不加双引号
+server:
+  max-http-header-size: 10 
 
