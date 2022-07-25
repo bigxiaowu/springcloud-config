@@ -1,7 +1,6 @@
-spring:
-	jackson:
-	    #指定日期格式，比如yyyy-MM-dd HH:mm:ss
-	    date-format: yyyy-MM-dd HH:mm:ss
-	    #指定日期格式化时区
-	    time-zone: GMT+8
+info:
+ app.name: ysy-microservicecloud
+ company.name: www.ysy.com
+ build.artifactId: "@project.artifactId@"  
+ build.version: "@project.version@"     # 可以不加双引号
 
